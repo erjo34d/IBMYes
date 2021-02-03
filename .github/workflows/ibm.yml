@@ -34,7 +34,7 @@ jobs:
       run: |
         ./IBM_Cloud_CLI/ibmcloud target -g "$RESOURSE_ID"
         ./IBM_Cloud_CLI/ibmcloud target --cf
-        ./IBM_Cloud_CLI/ibmcloud target -o https://api.eu-de.cf.cloud.ibm.com
+        ./IBM_Cloud_CLI/ibmcloud target -o a6d70bee-2900-49f3-9c0d-69d0d70b641e
     - name: Restart IBM Cloud
       env:
         IBM_APP_NAME: ${{ secrets.IBM_APP_NAME }}
